@@ -82,6 +82,6 @@ text-align:center;
 
   </style>
 <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use'footer.php';
 ?>

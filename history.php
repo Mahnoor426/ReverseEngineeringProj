@@ -1,6 +1,6 @@
 <?php
-include('header.php');
-include('slidebar.php');
+use'header.php';
+use'slidebar.php';
 if(isset($_SESSION['is_Login'])){
     $email = $_SESSION['email'];}
 ?>
@@ -126,6 +126,6 @@ if ($result->num_rows > 0) {
 
 
 <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use'footer.php';
 ?>

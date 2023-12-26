@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+use 'header.php';
 ?>
 
 <div class="con">
@@ -492,6 +492,6 @@ if ($result->num_rows > 0) {
     });
   </script>
 <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use'footer.php';
 ?>

@@ -1,6 +1,6 @@
 <?php
-include('header.php');
-include('slidebar.php');
+include'header.php';
+include'slidebar.php';
 $sql3 = "SELECT t_amount  FROM transaction  WHERE id = (SELECT id FROM usertable WHERE email = '".$email."')";
 $result3 = $conn->query($sql3);
 $sum=0;

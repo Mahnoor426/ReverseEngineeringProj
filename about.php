@@ -1,5 +1,5 @@
 <?php
-include_once'header.php';
+use 'header.php';
 ?>
 
         <!-- About Start -->
@@ -16,7 +16,13 @@ include_once'header.php';
                         <div class="about-tab">
                             <div class="tab-content">
                                 <div>
-                                At One Cause, we are dedicated to fostering positive change and building a compassionate society. Our donation eCommerce website serves as a platform for non-profit organizations, NGOs, and welfare organizations in Pakistan to showcase their causes.<br><br>Our mission is to provide a transparent and accountable platform for organizations to raise funds and for donors to contribute to causes they care about. We prioritize transparency by providing regular updates on funded projects, maintaining donation records, and issuing tax receipts.<br><br>For organizations, our platform offers a seamless registration process to share their mission, projects, and funding needs. Donors can explore diverse causes, learn about organizations, and contribute to initiatives that resonate with them.<br><br>Join us in making a meaningful impact and empowering one another for a better future.</div>
+                                At One Cause, we are dedicated to fostering positive change and building a compassionate society. Our donation eCommerce website serves 
+                                        as a platform for non-profit organizations, NGOs, and welfare organizations in Pakistan to showcase their causes.<br><br>Our 
+                                        mission is to provide a transparent and accountable platform for organizations to raise funds and for donors to contribute to causes 
+                                        they care about. We prioritize transparency by providing regular updates on funded projects, maintaining donation records, and issuing 
+                                        tax receipts.<br><br>For organizations, our platform offers a seamless registration process to share their mission, projects, and funding 
+                                        needs. Donors can explore diverse causes, learn about organizations, and contribute to initiatives that resonate with them.<br><br>Join us
+                                        in making a meaningful impact and empowering one another for a better future.</div>
                             </div>
                         </div>
                     </div>
@@ -73,8 +79,8 @@ include_once'header.php';
 
 
 <?php
-include('bot.php');
-include('footer.php');
+use'bot.php';
+use'footer.php';
 ?>
 
 

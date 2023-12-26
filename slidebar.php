@@ -1,5 +1,5 @@
 <?php 
-include_once('dbconnection.php');
+include_once'dbconnection.php';
 $activePage = basename($_SERVER['PHP_SELF'], ".php"); 
 if(isset($_SESSION['is_Login'])){
         $sql = "SELECT * FROM usertable WHERE email='" . $_SESSION['email'] . "'";

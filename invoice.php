@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+use 'header.php';
 if(isset($_SESSION['is_Login'])){
     $email = $_SESSION['email'];}
 ?>
@@ -190,6 +190,6 @@ if(isset($_SESSION['is_Login'])){
 
 
 <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use'footer.php';
 ?>

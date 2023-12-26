@@ -1,5 +1,5 @@
 <?php
-include_once'header.php';
+use'header.php';
 ?>
 
 <div style="position: relative;">

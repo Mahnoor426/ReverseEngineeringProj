@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include_once'header.php';
 ?>
 <div class="video">
   <video class="video3" playsinline autoplay muted loop>

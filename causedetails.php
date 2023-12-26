@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include_once 'header.php';
 if(isset($_GET['id'])){
   $id= $_GET['id'];
   $sql= "SELECT * FROM ngotable WHERE id ='$id'";

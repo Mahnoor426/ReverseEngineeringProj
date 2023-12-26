@@ -1,7 +1,7 @@
 <?php
-include('header.php');
-include('slidebar.php');
-include_once('dbconnection.php');
+use'header.php';
+use'slidebar.php';
+use'dbconnection.php';
 
 if(isset($_SESSION['is_Login'])){
   $email = $_SESSION['email'];}
@@ -48,6 +48,6 @@ else{
 
 
 <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use'footer.php';
 ?>

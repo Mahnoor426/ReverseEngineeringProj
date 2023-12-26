@@ -790,7 +790,6 @@ figure img {
     background-color: #f7f6f9;
     width: 350px;
     height: 100%;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

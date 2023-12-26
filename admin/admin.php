@@ -2,7 +2,7 @@
 if(!isset($_SESSION)){
     session_start();
 }
-include_once('../dbconnection.php');
+use '../dbconnection.php';
 //admin login verification 
 if (!isset($_SESSION['is_admin'])){
     if(isset($_POST['check']) &&isset($_POST['ademail']) &&isset($_POST['adpass']) )

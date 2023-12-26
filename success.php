@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+use 'header.php';
 ?>
 
     <style>
@@ -65,6 +65,6 @@ include('header.php');
       </div>  
 
       <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use'footer.php';
 ?>

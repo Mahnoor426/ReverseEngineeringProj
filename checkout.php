@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+use 'header.php';
 if(!isset($_SESSION['is_Login'])){
     echo"<script>
     alert('Login into your account to donate');
@@ -168,12 +168,8 @@ progressBars.forEach(function(progressBar) {
 </div>
 
     </div>
-
-
-
-
 <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use 'footer.php';
     
 ?>

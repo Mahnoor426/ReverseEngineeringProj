@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php';
+use 'header.php';
 if(isset($_GET['id'])){
     $id= $_GET['id'];
     $sql = "SELECT blog.*, ngotable.name  FROM blog JOIN ngotable ON blog.id = ngotable.id WHERE blog.b_id = '$id'";

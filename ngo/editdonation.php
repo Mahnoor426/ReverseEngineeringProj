@@ -1,7 +1,7 @@
 <?php 
 require_once "../ngo_login/controllerUserData.php"; 
-include_once('dbconnection.php');
-include('slidebar.php'); 
+use'dbconnection.php';
+use 'slidebar.php'; 
 
 if(isset($_SESSION['is_ngoLogin'])){
     $email = $_SESSION['email'];

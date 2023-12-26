@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+use 'header.php';
 
  // Set the error reporting to include fatal errors
 error_reporting(E_ALL);

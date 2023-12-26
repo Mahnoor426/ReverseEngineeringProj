@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+use 'header.php';
 ?>
 
 <div class="containerd" style="position: relative;">
@@ -88,6 +88,6 @@ progressBars.forEach(function(progressBar) {
 
 
 <?php
-include('bot.php');
-include('footer.php');
+use 'bot.php';
+use'footer.php';
 ?>

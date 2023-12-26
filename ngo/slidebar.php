@@ -1,6 +1,6 @@
 <?php 
 require_once "../ngo_login/controllerUserData.php"; 
-include_once('dbconnection.php');
+use'dbconnection.php';
 
 $activePage = basename($_SERVER['PHP_SELF'], ".php"); 
 $pageTitle = getPageTitle($activePage);

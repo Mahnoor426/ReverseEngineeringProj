@@ -17,16 +17,13 @@
         <?php
          if(!isset($_SESSION['is_Login'])){
             echo '<div class="footer-admin">
-                    <p><button type="button" class="adb1" data-bs-toggle="modal" 
-                    data-bs-target="#admin-login">admin-login</button></p>
+                    <p><button type="button" class="adb1" data-bs-toggle="modal" data-bs-target="#admin-login">admin-login</button></p>
                   </div>';}
         ?>
     </footer>
 
-
      <!--admin login page-->
- <div class="modal fade" id="admin-login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal fade" id="admin-login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">

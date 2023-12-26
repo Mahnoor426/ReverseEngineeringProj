@@ -1,6 +1,6 @@
 <?php 
 include_once('../dbconnection.php');
-include('slidebar.php');
+use 'slidebar.php';
 $sql = "SELECT * FROM ngotable";
 $result = $conn->query($sql);
 if ($result) {

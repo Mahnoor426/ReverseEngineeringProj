@@ -1,13 +1,13 @@
 <?php 
 session_start();
-require "connection.php";
+use "connection.php";
 $email = "";
 $name = "";
 $errors = array();
 
-require 'includes/PHPMailer.php';
-require 'includes/SMTP.php';
-require 'includes/Exception.php';
+use 'includes/PHPMailer.php';
+use 'includes/SMTP.php';
+use 'includes/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -56,8 +56,7 @@ if(isset($_POST['signup'])){
         $encpass = password_hash($password, PASSWORD_BCRYPT);
         $code = rand(999999, 111111);
         $status = "notverified";
-        $insert_data = "INSERT INTO ngotable (name, email, password, code, status)
-                        values('$name', '$email', '$encpass', '$code', '$status')";
+        $insert_data = "INSERT INTO ngotable (name, email, password, code, status)values('$name', '$email', '$encpass', '$code', '$status')";
         $data_check = mysqli_query($con, $insert_data);
         if($data_check){
             $subject = "Email Verification Code";
